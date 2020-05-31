@@ -63,7 +63,7 @@ header section {
   display: flex;
   margin: 0 0 4.375rem 0;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 section img {
