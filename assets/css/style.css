@@ -6,7 +6,9 @@
   text-decoration: none;
   font-family: inherit;
   line-height: inherit;
+  outline: none;
   -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body,
@@ -30,6 +32,12 @@ main {
 
 footer {
   margin-top: 2rem;
+}
+
+header * {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 header h1 {
@@ -519,4 +527,10 @@ article .meta {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+}
+
+/* Emoji */
+
+.emoji{
+	margin-bottom: -4px;
 }
