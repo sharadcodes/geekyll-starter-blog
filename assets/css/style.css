@@ -66,6 +66,8 @@ header section {
   align-items: flex-start;
 }
 
+header section p{margin-top: 0;}
+
 section img {
   width: 50px;
   height: 50px;
