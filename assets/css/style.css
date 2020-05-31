@@ -6,6 +6,7 @@
   text-decoration: none;
   font-family: inherit;
   line-height: inherit;
+  -webkit-user-drag: none;
 }
 
 body,
@@ -39,9 +40,20 @@ header h1 {
   color: rgba(0, 0, 0, 0.9);
 }
 
+header .dmode {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+header .dmode img {
+  cursor: pointer;
+  display: inline-block;
+}
+
 header section {
   display: flex;
-  margin: 2.8rem 0rem 4.375rem 0;
+  margin: 0 0 4.375rem 0;
   justify-content: space-between;
   align-items: center;
 }
@@ -469,3 +481,42 @@ article .meta {
   color: #0086f7;
   font-weight: bold;
 } /* Literal.Number.Integer.Long */
+
+/* dark mode */
+
+.darkmode {
+  color: white !important;
+  background-color: black !important;
+}
+.darkmode header p,
+.darkmode header h1 {
+  color: white !important;
+}
+
+.darkmode p {
+  color: white !important;
+}
+
+.darkmode .dmode img {
+  filter: invert();
+  -webkit-animation: spin 0.4s linear;
+  -moz-animation: spin 0.4s linear;
+  animation: spin 0.4s linear;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
