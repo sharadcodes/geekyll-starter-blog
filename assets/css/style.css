@@ -194,6 +194,7 @@ article .meta {
 .content pre {
   background: #00110d !important;
   padding: 12px 13px;
+  margin-bottom: 1.75rem;
 }
 
 .content code {
