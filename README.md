@@ -3,6 +3,13 @@ A minimal Jekyll theme for blogging developed by Sharad Raj Singh Maurya
 
 ## [Live Demo](https://sharadcodes.github.io/geekyll-starter-blog/)
 
+## Features
+
+* Dark Mode
+* Minimal CSS
+* Syntax Highlighting
+* Every Image can be clicked to open lightbox
+
 ## How to install
 
 1. Download or clone the repo
