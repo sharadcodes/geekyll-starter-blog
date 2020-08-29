@@ -513,10 +513,6 @@ article .meta {
   animation: spin 0.4s linear;
 }
 
-html, body {
-	transition-duration: 0.4s;
-}
-
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(45deg);
